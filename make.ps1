@@ -1,1 +1,3 @@
-gcc main.c -o calculator.exe
+
+
+gcc -I modules main.c modules/course.c -o calculator.exe
